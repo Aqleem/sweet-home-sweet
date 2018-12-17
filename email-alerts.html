@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="account-overview application ng-scope" ng-app="rennie" ng-controller="GlobalCtrl">
+    <div class="outer-container">
+    <base href="/">
+    <header class="masthead">
+    <div class="l-container">
+    <div class="masthead__content">
+    <div class="logo">
+    <img alt="home sweet home" class="logo__image" src="https://www.hawaiilife.com/assets/logo-7cd9b3d3110a10f726645002ef9db6c386949e29205fdc288016a23ee35a374d.svg">
+    <a class="logo__link" href="/">home sweet home</a>
+    </div>
+    <!-- ngIf: true --><div class="masthead__brokerage ng-scope" ng-if="true">
+    <h2 class="masthead__brokerage__name">
+    <a class="u-link-color--base">
+    <span class="masthead__brokerage__name--responsive">
+    home sweet home
+    </span>
+    </a>
+    </h2>
+    </div><!-- end ngIf: true -->
+    <nav class="main-nav">
+    <h2 class="u-screen-reader">Main Navigation</h2>
+    <ul class="main-nav__list">
+    <li class="main-nav__list-item has-submenu">
+    <a class="main-nav__link " href="/listings">Real Estate</a>
+    <div class="submenu">
+    <ul class="submenu__list tooltip">
+    <li class="submenu__item">
+    <a class="submenu__link" href="#">All Islands</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="#">Oahu</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="#">Kauai</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="#">Big Island</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="#">Maui</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="#">Lanai</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="#">Molokai</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="#">Developments</a>
+    </li>
+    </ul>
+    </div>
+    </li>
+    <li class="main-nav__list-item has-submenu">
+    <a class="main-nav__link" target="_blank" href="#">Vacations</a>
+    <div class="submenu">
+    <ul class="submenu__list tooltip">
+    <li class="submenu__item">
+    <a class="submenu__link" target="_blank" href="#">Kauai Vacation Rentals</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" target="_blank" href="#">Oahu Vacation Rentals</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" target="_blank" href="#">Maui Vacation Rentals</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" target="_blank" href="#">Hawaii Vacation  Rentals</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" target="_blank" href="#">Property Management</a>
+    </li>
+    </ul>
+    </div>
+    </li>
+    <li class="main-nav__list-item has-submenu">
+    <a class="main-nav__link" href="/blog/">News</a>
+    <div class="submenu">
+    <ul class="submenu__list tooltip">
+    <li class="submenu__item">
+    <a class="submenu__link" href="/blog/">home sweet home Blog</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" target="_blank" href="#">Vacations Blog</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" target="_blank" href="#">Worthshop Series</a>
+    </li>
+    </ul>
+    </div>
+    </li>
+    <li class="main-nav__list-item has-submenu">
+    <a class="main-nav__link " href="/company/">Company</a>
+    <div class="submenu">
+    <ul class="submenu__list tooltip">
+    <li class="submenu__item">
+    <a class="submenu__link" href="/agents">Find an Agent</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="/company/offices/">Office Locations</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="/company/">About home sweet home</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="/company/team">Leadership and Staff</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="/company/representation">Buyer &amp; Seller Services</a>
+    </li>
+    </ul>
+    </div>
+    </li>
+    <li class="main-nav__list-item user has-submenu js-flyout-end">
+    <button class="button utility-nav__link">
+    <p class="user-name">user name</p>
+    <p class="user-no-image">
+    UN
+    </p>
+    </button>
+    <div class="submenu submenu--user">
+    <ul class="submenu__list tooltip">
+    <li class="submenu__item">
+    <a class="submenu__link" href="index.html">Overview</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="favourites.html">My Favorites</a>
+    <div class="badge ng-binding">0</div>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="email-alerts.html">Email Alerts</a>
+    <!-- ngIf: getSavedSearchCount() -->
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="/user/edit">Account Settings</a>
+    </li>
+    <li class="submenu__item">
+    <a class="submenu__link" href="/logout">Sign Out</a>
+    </li>
+    </ul>
+    </div>
+    </li>
+    </ul>
+    </nav>
+    </div>
+    </div>
+    </header>
+    
+    
+    
+    <div class="inner-container">
+    <div class="l-main" id="top">
+    <div class="alert-banner__container alert-banner__container--fixed ng-isolate-scope" rn-alerts-container="global"><!-- ngRepeat: alert in vm.alerts() --></div>
+    </div>
+    <div class="l-container l-padding--quarter">
+    <div class="user-navigation">
+    <h3 class="user-navigation__item--heading">MY SWEET HOME SWEET</h3>
+    <a class="user-navigation__item user-navigation__item--favourites" href="index.html">Overview</a>
+    <a class="user-navigation__item user-navigation__item--favourites" href="favourites.html">My Favorites</a>
+    <a class="is-active user-navigation__item user-navigation__item--alerts" href="email-alerts.html">Email Alerts</a>
+    <a class="user-navigation__item user-navigation__item--edit" href="./account-setting.html">Account Settings</a>
+    </div>
+    </div>
+    
+    <div class="fullwidth-wrapper--no-padding ng-scope" ng-controller="SavedSearchesCtrl">
+    <div class="l-container">
+    <h2 class="heading--label">
+    Search Alerts
+    </h2>
+    </div>
+    <!-- ngIf: !savedSearches.getCached().length --><div class="l-container u-centered ng-scope" ng-if="!savedSearches.getCached().length">
+    <div class="no-results">
+    <p class="no-results__message no-results__message--narrow no-results__message--narrow--padded">
+        You have no email alerts
+    <span class="utility-links--set-alert"></span>
+    set up an alert
+    <a href="alet-pop.html">Create Email Alert</a>
+
+    </p>
+    </div>
+    </div><!-- end ngIf: !savedSearches.getCached().length -->
+    <!-- ngIf: savedSearches.getCached().length -->
+    </div>
+    <div class="l-container">
+    <div class="account-settings-footer">
+    <div class="columns columns--2">
+    <div class="columns__item">
+    <h2 class="cta">You haven’t connected with a my Home Sweet Home agent.</h2>
+    <p class="intro">
+    Working with the right agent is essential for the homebuying or selling process. For best results please
+    <a href="company/contact">contact our customer service</a>
+    team and we’ll put you in touch with an expert, local agent that listens to your unique real estate needs.
+    </p>
+    <p>
+    If you’re already working with an agent,
+    <a href="company/contact">let us know</a>
+    and we will link them to your account.
+    </p>
+    
+    </div>
+    <div class="columns__item"></div>
+    </div>
+    </div>
+    </div>
+</body>
+    
+    
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/alet-pop.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container contact-card  ">
+        <div class="form-card">
+            <form method="post">
+                <div class="setup-center">
+                    <h3> SETUP YOUR ALERT</h3>
+                    <div class="input-group pt-4 mb-3 input-width">
+                        <input type="text" class="form-control" placeholder="Name your alert" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <ul class="create-alert-radio ">
+                        <li>I Wish to Recive this Alert</li>
+                        <li>
+                            <input type="radio" id="daily" name="AlertFrequency" value="1" checked="checked" class="custom-radio-input">
+                            <label for="daily" class="custom-radio"> Daily</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="weekly" value="7" name="AlertFrequency" class="custom-radio-input">
+                            <label for="weekly" class="custom-radio"> Weekly</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="monthly" value="30" name="AlertFrequency" class="custom-radio-input">
+                            <label for="monthly" class="custom-radio"> Monthly</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="creat-instant-form">
+                    <div class="f-w-1 p-3">
+                        <select name="AlertSaleRent" class="inputDD f-w-1 selectpicker" onChange="return alert_property_type(this.value);">
+                            <option value="For Sale">For Sale</option>
+                            <option value="For Rent">For Rent</option>
+                        </select>
+                    </div>
+                    <!--  -->
+                  
+                          
+                    <div class="f-w-1 p-3">
+                            <select name="AlertSaleRent" class="inputDD f-w-1 selectpicker" onChange="return alert_property_type(this.value);">
+                                    <option value="">Property Type </option>
+                                    <option value="8">Apart-hotel</option>
+                                    <option value="3">Apartment</option>
+                                    <option value="18">Attic</option>
+                                    <option value="5">Duplex</option>
+                                    <option value="23">Ground Floor</option>
+                                    <option value="26">Penthouse</option>
+                                    <option value="6">Studio</option>
+                                    <option value="83">Triplex</option>
+                                    <option value="41">Bar</option>
+                                    <option value="42">Bar / Restaurant</option>
+                                    <option value="81">Business</option>
+                                    <option value="77">Hostel</option>
+                                    <option value="79">Hotel</option>
+                                    <option value="17">Land</option>
+                                    <option value="89">Resort</option>
+                                    <option value="34">Garage</option>
+                                    <option value="35">Parking lot</option>
+                                    <option value="36">Storage room</option>
+                                    <option value="4">Bungalow</option>
+                                    <option value="88">Country House</option>
+                                    <option value="85">House</option>
+                                    <option value="86">Villa</option>
+                                    <option value="33">Office / Practice</option>
+                                    <option value="87">New Development</option>
+                                    <option value="31">Warehouses</option>
+                            </select>
+                        </div>
+                    <!--  -->
+                    <div class="f-w-2 p-3">
+                        <select name="alertPropType" class="inputDD f-w-2" required>
+                            <option value="">Property Type &nbsp;</option>
+                            <option value="8">Apart-hotel</option>
+                            <option value="3">Apartment</option>
+                            <option value="18">Attic</option>
+                            <option value="5">Duplex</option>
+                            <option value="23">Ground Floor</option>
+                            <option value="26">Penthouse</option>
+                            <option value="6">Studio</option>
+                            <option value="83">Triplex</option>
+                            <option value="41">Bar</option>
+                            <option value="42">Bar / Restaurant</option>
+                            <option value="81">Business</option>
+                            <option value="77">Hostel</option>
+                            <option value="79">Hotel</option>
+                            <option value="17">Land</option>
+                            <option value="89">Resort</option>
+                            <option value="34">Garage</option>
+                            <option value="35">Parking lot</option>
+                            <option value="36">Storage room</option>
+                            <option value="4">Bungalow</option>
+                            <option value="88">Country House</option>
+                            <option value="85">House</option>
+                            <option value="86">Villa</option>
+                            <option value="33">Office / Practice</option>
+                            <option value="87">New Development</option>
+                            <option value="31">Warehouses</option>
+                        </select>
+                    </div>
+                    <div class="f-w-2 p-3">
+                        <select name="search_property_neighborhood_id" class="inputDD f-w-2">
+                            <option value="">Areas&nbsp;</option>
+                            <option value="128">Arguineguin </option>
+                            <option value="169">Puerto Rico </option>
+                            <option value="252">Las Meloneras </option>
+                            <option value="172">Taurito</option>
+                            <option value="269">Playa del Ingles </option>
+                            <option value="264">Montana La Data </option>
+                            <option value="261">Maspalomas </option>
+                            <option value="441">Salobre Golf </option>
+                            <option value="265">Pasito Blanco </option>
+                            <option value="224">Bahia Feliz </option>
+                            <option value="275">Sonnenland </option>
+                            <option value="164">Mogan </option>
+                            <option value="273">San Fernando </option>
+                            <option value="0">Bellavista </option>
+                            <option value="239">El Tablero </option>
+                            <option value="240">Fataga </option>
+                            <option value="272">San Agustin </option>
+                            <option value="119">Las Palmas </option>
+                            <option value="165">Patalavaca </option>
+                            <option value="268">Playa Del Aguila </option>
+                            <option value="149">Anfi Tauro </option>
+                            <option value="442">Monte Leon </option>
+                        </select>
+                    </div>
+                    <div class="f-w-2 p-3">
+                        <select name="alert_bedroom" class="inputDD f-w-2" required>
+                            <option value="">Bedrooms&nbsp;</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10+</option>
+                        </select>
+                    </div>
+
+            </form>
+
+        </div>
+        <div class="create-btn">
+            <button type="button" class="btn btn-primary btn-lg m-4 create-alert2"> <a href="propertsearcch.html" class="text-white ">
+                    Create ALert</a> </button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

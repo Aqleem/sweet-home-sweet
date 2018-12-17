@@ -1,0 +1,104 @@
+.contact-card 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.form-card
+{
+    background-color: #12b5ea;
+    padding: 30px;
+    width: 86%;
+    border: 1px solid blue;
+    border-radius: 30px;
+}
+.inputDD{
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 4px;
+    font-weight: bold;
+}
+.input-width
+{
+    width: 61% !important;
+}
+.create-alert-radio
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+    flex-wrap: wrap;
+    width: 61%;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.setup-center h3
+{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: -webkit-xxx-large;
+    color: white;
+}
+.setup-center
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.creat-instant-form
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+}
+.create-btn
+{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .inputDD
+  {
+     padding: 5px;
+   }
+    .contact-card 
+    {
+       padding: 0px !important;
+    }
+    .form-card
+    {
+        width: 100%;
+        border-radius: 0px !important;
+    }
+    .setup-center h3 {
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: x-large;
+        color: white;}
+    .create-alert{
+        font-family: sans-serif !important;
+        font-weight: 800;
+        color: red;
+        }
+    .setup-center
+   {
+    display: flex;
+    flex-direction: column;
+   }
+.creat-instant-form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+}
+  }

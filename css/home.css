@@ -1,0 +1,133 @@
+body {
+    height: 100%;
+    background: #FFFFFF;
+    color: #232323;
+    font-family: "Whitney A", "Whitney B", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+.user-navigation{
+    display: flex;
+    -webkit-flex-wrap: wrap;
+
+}
+.user-navigation h3
+{
+padding-right: 10px;
+font-family: "Whitney A", "Whitney B", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    margin: 1px 36px 0 0;
+    color: #12b5ea;
+
+}
+.user-navigation a {
+    display: inline-block;
+    margin: 6px 12px 6px 0;
+    padding: 0;
+    color: #212121;
+    background: none;
+    font-family: "Whitney A", "Whitney B", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.25em;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    margin-top: auto;
+}
+.user-navigation a :hover {
+    color: #12B5EA;
+    text-decoration: none;
+    -webkit-transition: color 0.2s, background 0.2s;
+    -moz-transition: color 0.2s, background 0.2s;
+    -o-transition: color 0.2s, background 0.2s;
+    transition: color 0.2s, background 0.2s;
+}
+.big-icon {
+    font-size: 25px;
+}
+/* card css */
+.card-rate {
+    font-size: 24px; 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+.card-rate a {
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.card-btn {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.btn-color{
+    color:#12b5ea;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.icon {
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+.card-btn a{
+    font-family: sans-serif;
+    /* color: #12B5EA !important; */
+
+
+}
+.bg-btn {
+    background-color: #12b5ea!important;
+}
+.text-blue {
+        color: #12b5ea !important;
+}
+.card-title a{
+    color: #12B5EA !important;
+
+} 
+
+
+
+@media only screen and (max-width: 46em) and (orientation: portrait){
+    .card-rate {
+    background: rgba(255,255,255,0.8);
+    border-radius: 4px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.7);
+    padding: 10px 12px;
+    font-size: 21px;
+    position: absolute;
+    right: 25px;
+    bottom:227px;
+    }
+}
+@media only screen and (max-width: 46em) and (orientation: portrait){
+    .card-info {
+        display: inline;
+    }
+    .card-p {
+        padding: 0px !important;
+    }
+   
+    
+}
+
+
+.style-two {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .heard-icon {
+        color: #f15c22 !important;
+    }
